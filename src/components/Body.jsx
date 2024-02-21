@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import RestrauntCard from "./RestrauntCard";
 import HomeShimmer from "../Shimmer/HomeShimmer";
 
+
 const Body = () => {
   const [allList, setAllList] = useState([]);
   const [list, setList] = useState([]);
